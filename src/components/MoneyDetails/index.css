@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+
+  width: 70vw;
+}
+.money-detail-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: #84cc16;
+  border-width: 1px;
+  background-color: #ecfccb;
+
+  margin-top: 20px;
+  padding: 10px;
+  height: 60px;
+  width: 170px;
+  border-radius: 10px;
+}
+.img {
+  height: 30px;
+  margin-right: 12px;
+}
+.money-detail-2 {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-color: #06b6d4;
+  border-width: 1px;
+  background-color: #cffafe;
+  justify-content: center;
+  align-items: center;
+  margin-left: 255px;
+  padding: 10px;
+  height: 60px;
+  width: 170px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.money-detail-3 {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-color: #7c3aed;
+  border-width: 1px;
+  background-color: #ede9fe;
+  justify-content: center;
+  align-items: center;
+  margin-left: 255px;
+  padding: 10px;
+  margin-top: 20px;
+  height: 60px;
+  width: 170px;
+  border-radius: 10px;
+}
+.balance {
+  font-size: 10px;
+}
+.amount {
+  font-size: 15px;
+}
